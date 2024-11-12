@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --black: #4D4C59;
+    --purple: #6C63FF;
+    --light-grey: #C8C8C8;
+    --text-color: #9C9AB6;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px
+}
+
+.contentMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentMain h1{
+    color: var(--purple);
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.countdownContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.countdownEl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdownContainer span {
+    color: var(--light-grey);
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+.text {
+    color: var(--black);
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.textForInscription {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 48px;
+}
+
+button {
+    padding: 10px 32px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--purple);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
